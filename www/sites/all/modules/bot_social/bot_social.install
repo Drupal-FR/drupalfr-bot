@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * .install file for Bot Social.
+ */
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function bot_social_uninstall() {
+  // Delete our cached data.
+  cache_clear_all('bot_social_', 'cache', TRUE);
+}
