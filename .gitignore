@@ -9,3 +9,4 @@ sites/*/private
 # IDE files.
 .idea
 
+www/nohup.out
